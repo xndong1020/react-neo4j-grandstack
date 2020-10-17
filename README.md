@@ -28,4 +28,4 @@ GRAPHQL_SERVER_PATH=/graphql
 
 http://www.apcjones.com/arrows/
 
-!(arrow tools)[./docs/img/0001.png]
+![arrow tools](./docs/img/0001.png)

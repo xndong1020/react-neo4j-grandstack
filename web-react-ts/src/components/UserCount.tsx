@@ -26,7 +26,7 @@ export default function Deposits() {
   const { loading, error, data } = useQuery(GET_COUNT_QUERY)
   if (error) return <p>Error</p>
   return (
-    <React.Fragment>
+    <>
       <Title>Total Users</Title>
       <Typography component="p" variant="h4">
         {loading ? 'Loading...' : data.userCount}
@@ -39,6 +39,6 @@ export default function Deposits() {
           View users
         </Link>
       </div>
-    </React.Fragment>
+    </>
   )
 }
